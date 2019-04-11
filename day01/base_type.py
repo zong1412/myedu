@@ -13,19 +13,34 @@
 # 合法标识符(变量名方法名) : 必须以字母或者_开头,剩下的可以是字母数字,下划线,大小写敏感, 不可用关键字做标识符
 # ctrl+alt+L 格式化代码
 # ctrl+K  commit 代
-# # ctrl + shift + K  push 代码
+# ctrl + shift + K  push 代码
+intqq = 50
+#声明一个int_demo 方法
+# def int_demo():
+#     aint = 1
+#     print(aint)
+#     print(type(aint))
 #
-# #声明一个int_demo 方法
-# # def int_demo():
-# #     aint = 1
-# #     print(aint)
-# #     print(type(aint))
-# #
-# # if __name__ == '__main__':
-# #     int_demo()
-# def nihao():
-#     a = 'hello'
-#     b = 250码
-    print('%s %s')
+# def str_demo():
+#     astr='1'
+#     print(astr)
+#     print(type(astr))
+#     print('------------')
+#     astr=1
+#     print(1)
+#     print(type(astr))
+
+def str_demo1():
+    a = 'hello'
+    b = 'world'
+    return a+b
+
+
+
+
+
 if __name__ == '__main__':
-    nihao()
+    str_demo1()
+    pass
+
+

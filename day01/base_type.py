@@ -37,8 +37,6 @@ def str_demo1():
 
 
 
-
-
 if __name__ == '__main__':
     str_demo1()
     pass
